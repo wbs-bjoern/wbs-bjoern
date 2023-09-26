@@ -1,0 +1,183 @@
+html {
+    font-family: roboto;
+}
+
+body {
+    border: 2px solid black;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #053B50;
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 1% 2%;
+}
+
+h1, h2 {
+    font-family: roboto;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 3rem;
+    margin-top: 0;
+    animation: unblur 3s 1s 2;
+}
+
+p {
+    color: white;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: orange;
+}
+
+#home {
+    background-color: #176B87;
+    padding: 5rem 0;
+}
+
+.wrapper > p {
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.wrapper-container {
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.wrapper-container2 {
+    display: flex;
+    width: 80%;
+}
+
+#duck {
+    display: flex;
+    justify-content: center;
+    background-color: #64CCC5;
+    padding: 5rem 0;
+}
+
+.text {
+    align-self: center;
+    width: 50%;
+}
+
+
+
+#emergency {
+    background-color: #EEEEEE;
+    padding: 3rem 0 7rem;
+}
+
+#emergency > h2 {
+    color: black;
+    padding-bottom: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: antiquewhite;
+    font-size: 1.6rem;
+    color: black;
+    padding: 10%;
+    
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    background-color: whitesmoke;
+}
+
+form {
+display: flex;
+flex-direction: column;
+width: 50%;
+align-self: center;
+gap: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #053B50;
+    
+}
+
+footer > div, a, button {
+    align-self: center;
+    color: white;
+    padding-top: 2rem;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    text-align: ;
+    padding: 1rem 6rem;
+    background-color: #053B50;
+    font-size: 1.5rem;
+}
+
+textarea:focus, input:focus {
+    background-color: lightblue;
+  }
+
+  .logo-git {
+    width: 8rem;
+  }
+
+  .rubberduck {
+    width: 70%;
+  }
